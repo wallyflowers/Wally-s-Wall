@@ -9,8 +9,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'GeistMono';
+	src: url('/fonts/GeistMono-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
 body {
-	font-family: 'Geist', sans-serif;
+	font-family: 'GeistMono', sans-serif;
 	color: #333;
 }
 

@@ -1,20 +1,24 @@
 <script>
-	import wally from '$lib/assets/wally.png';
+	//import wally from '$lib/assets/wally.png';
+	import bricks from '$lib/assets/bricks.png';
 	import PostPreview from '$lib/components/PostPreview.svelte';
 	import { posts } from '$lib/posts.js';
 </script>
+
+<!-- <img class="h-20 rounded-full" alt="Wally" src={wally} /> -->
 
 <!-- Hero -->
 <div class="flex flex-col gap-9 pt-32">
 	<div class="m-auto max-w-full text-center w-[500px]">
 		<div class="flex flex-col items-center gap-3 m-auto">
-			<img class="h-20 rounded-full" alt="Wally" src={wally} />
-			<h1 class="font-bold text-xl">💮 Wally's Wall 💮</h1>
-			<p class="italic">
+			<img src={bricks} alt="Background Bricks" class="w-40" />
+			<h1 class="font-mono font-bold text-xl">💮 Wally's Wall 💮</h1>
+			<p class="font-mono italic">
 				Somewhere between <br /> The formal machine <br />and the people that toggle its bits
 				<br />is a spirit that knows <br />that mathematics and prose <br />are forever espoused to
 				our wits
 			</p>
+
 			<!-- <p>
 				My name is Wally, this is my wall. Everything published here is free to read. I write about
 				computers, education, curiosity, creativity, and Love

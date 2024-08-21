@@ -1,11 +1,31 @@
-<script lang="ts">
-  import Post from '../posts/post.md';
-  import profile-pic from '$lib/assets/profile-pic.png';
+<script>
+	import wally from '$lib/assets/wally.png';
+	import PostPreview from '$lib/components/PostPreview.svelte';
+	import { posts } from '$lib/posts.js';
 </script>
 
-<h1>Wally's Wall</h1>
+<!-- Hero -->
+<div class="flex flex-col gap-9 pt-32">
+	<div class="m-auto max-w-full text-center w-[500px]">
+		<div class="flex flex-col items-center gap-3 m-auto">
+			<img class="h-20 rounded-full" alt="Wally" src={wally} />
+			<h1 class="font-bold text-xl">💮 Wally's Wall 💮</h1>
+			<p class="italic">
+				Somewhere between <br /> The formal machine <br />and the people that toggle its bits
+				<br />is a spirit that knows <br />that mathematics and prose <br />are forever espoused to
+				our wits
+			</p>
+			<!-- <p>
+				My name is Wally, this is my wall. Everything published here is free to read. I write about
+				computers, education, curiosity, creativity, and Love
+			</p> -->
+		</div>
+	</div>
+</div>
 
-<img alt="Wally's Profile Picture" src={profile-pic}
-
-<Post />
-
+<!-- Posts -->
+<div class="flex flex-col gap-6 mt-10 px-5">
+	{#each posts as post}
+		<PostPreview {post} />
+	{/each}
+</div>

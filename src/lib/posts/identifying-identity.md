@@ -1,5 +1,5 @@
 ---
-title: Shaping Identity
+title: Identifying Identity
 date: "2024-08-22"
 preview: Identity is not just how we feel about who we are, it is a dynamic process that feeds back into itself and shapes our lives and the lives of others. Let's break that down.
 ---

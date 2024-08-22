@@ -1,7 +1,7 @@
 <script>
 	export let data;
 
-	const { title, date } = data.metadata;
+	const { title } = data.metadata;
 
 	const { PostContent } = data;
 </script>

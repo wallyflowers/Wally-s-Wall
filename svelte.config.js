@@ -11,7 +11,8 @@ const config = {
 		vitePreprocess(),
 		mdsvex({
 			extensions: ['.md'],
-			layout: '/src/routes/[post]/layout.svelte'
+			layout: '/src/routes/[post]/layout.svelte',
+			smartypants: true
 		})
 	],
 	kit: {

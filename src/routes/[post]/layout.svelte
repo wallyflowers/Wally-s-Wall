@@ -3,11 +3,12 @@
 <script>
 	export let title;
 	export let date;
+	// export let preview;
 </script>
 
-<h1 class="m-5">{title}</h1>
-<p class="m-5">{date}</p>
-<div class="m-5">
+<div class="flex flex-col gap-4 w-[500px] m-auto max-w-[90%] mb-24 mt-32">
+	<h1>{title}</h1>
+	<p>{date}</p>
 	<slot>
 		<!-- the mdsvex content will be slotted in here -->
 	</slot>

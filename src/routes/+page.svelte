@@ -12,17 +12,12 @@
 	<div class="m-auto max-w-full text-center w-[500px]">
 		<div class="flex flex-col items-center gap-3 m-auto">
 			<img src={bricks} alt="Background Bricks" class="w-40" />
-			<h1 class="font-mono font-bold text-xl">💮 Wally's Wall 💮</h1>
+			<h1 class="font-mono font-bold text-xl">💮 Where the Wall Comes Down 💮</h1>
 			<p class="font-mono italic">
 				Somewhere between <br /> The formal machine <br />and the people that toggle its bits
 				<br />is a spirit that knows <br />that mathematics and prose <br />are forever espoused to
 				our wits
 			</p>
-
-			<!-- <p>
-				My name is Wally, this is my wall. Everything published here is free to read. I write about
-				computers, education, curiosity, creativity, and Love
-			</p> -->
 		</div>
 	</div>
 </div>

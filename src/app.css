@@ -20,24 +20,3 @@ body {
 	font-family: 'GeistMono', sans-serif;
 	color: #333;
 }
-
-h1 {
-	font-size: 2.5rem;
-}
-
-h2 {
-	font-size: 2rem;
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-h4 {
-	font-size: 1.5rem;
-}
-
-/* Style for paragraph tags */
-p {
-	font-size: 1rem;
-}

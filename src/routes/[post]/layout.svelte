@@ -7,9 +7,11 @@
 </script>
 
 <div class="flex flex-col gap-4 w-[500px] m-auto max-w-[90%] mb-24 mt-32">
-	<h1>{title}</h1>
-	<p>{date}</p>
-	<slot>
-		<!-- the mdsvex content will be slotted in here -->
-	</slot>
+	<div class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl">
+		<h1>{title}</h1>
+		<p>{date}</p>
+		<slot>
+			<!-- the mdsvex content will be slotted in here -->
+		</slot>
+	</div>
 </div>

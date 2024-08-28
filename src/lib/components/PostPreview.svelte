@@ -6,7 +6,10 @@
 	<div class="flex flex-row gap-2 items-start">
 		<!-- <img alt="Post" src="" /> -->
 		<a href="/{post.filename}">
-			<h2 class="font-medium text-lg">{post.title}</h2>
+			<h2 class="font-medium text-lg">
+				{post.emoji}
+				<span class="underline"> {post.title} </span>
+			</h2>
 		</a>
 	</div>
 	<div class="bg-gray-100 rounded-xl">

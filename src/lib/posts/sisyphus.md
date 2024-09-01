@@ -1,5 +1,5 @@
 ---
-emoji: 👤
+emoji: 🪨
 title: Sisyphus
 date: 2024-08-30
 preview: "*On the foot of a great mountain rests Sisyphus with his stone, a great and cratered thing. Socrates approaches from the vault of twilight sky to the East.*"

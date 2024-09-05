@@ -1,13 +1,55 @@
 ---
 emoji: 🔭
 title: Science
-date: "2024-09-03"
+date: 2024-09-03
 preview: What is the essence of Science? Is Computer Science a science? Can a Self science itself scientifically?
 ---
 
 <script>
   import ScienceTimeline from '$lib/components/ScienceTimeline.svelte';
+  import Critic from '$lib/components/Critic.svelte';
+
+  const comments = [
+    "this article is just silly. Frankly I can't think of anything else much to say. ",
+    "Whoever this author is, he does not know what he is talking about...!",
+    "Writing to himself 😬",
+    "This page was just fraught with problems. You may want to contemplate deleting the whole section on the grounds that it has more disinformation than information.",
+    "This is actually extremely harmful to invoke Science so carelessly. You are doing a lot of harm here.",
+    "Poor guy...",
+    "🤣🤣🤣",
+    "literally MISINFORMATION",
+    "🤣🤣🤣",
+    "What could you ever contribute to any human endeavor?",
+    "🤣🤣🤣",
+    "This is exactly the careless kind of thinking that would never survive any level of scrutiny.",
+    "This is cute.",
+    "Losing the plot!!",
+    "I learned so much from this.",
+    "Anyone who reads this should really go read a book instead...",
+    "He didn't even mention peer review... Literally the only thing that makes it Science.",
+    "This is really insightful.",
+    "Rehashed garbage.",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+    "USELESS",
+  ]
 </script>
+
+<Critic commentTexts={comments}/>
 
 Dear MW,
 
@@ -18,16 +60,16 @@ Science, in general, is the rational way that we come to understand our observat
 1. Experience a phenomenon or identify a problem. Devise a question.
 2. Gather existing information related to the question and review how others see the phenomenon or problem.
 3. Propose a tentative explanation or prediction that is testable, a hypothesis.
-4. Develop a procedure to test the hypothesis, identifying variables and controls and methods for data collection.
+4. Develop a repeatable procedure to test the hypothesis, identifying variables and controls and methods for data collection.
 5. Analyze the collected data. Consider whether the data supports or refutes the original hypothesis.
-6. Document the process and publish them.
+6. Document the process and publish it.
 7. Subject the documentation to others for review.
 
 This is generally how Science has progressed over the past four hundred years or so. Everything we know from Newton to Darwin to the Large Hadron Collider fit in this four hundred year span; a handful of generations. To get a sense of scale, here is a bar representing the duration of all of history (since written language was first used in 3200 BC). The section in green represents the Age of Science (1600 AD - present).
 
 <ScienceTimeline timelineStart=-3200 ageStart=1600 color='#4caf50'/>
 
-If applying the Scientific method was humanity's way of jumping from our humble beginnings and landing in a mastery of ourselves and our environment, we are still very much in free fall. This means there is a lot to be curious about and still plenty of problems to put your mind to. You have so many choices, you will need a great sense of choosing what to work on! I think you will find, in time, that you have a natural gravity toward exploring some ideas. You will also find that it is impossible to ignore these tendencies without feeling like there is something tugging at you all the time. For instance, do you remember the way that your first computer programs made you feel? That feeling of delight and discovery is exactly what keeps the scientific method alive. In this letter we will hone in on the pursuit of that feeling and how scientific thinking can help us achieve it more often.
+If applying the Scientific method was humanity's way of jumping from our humble beginnings and landing in a mastery of ourselves and our environment, we are still very much in free fall. This means there is a lot to be curious about and still plenty of problems to put your mind to. You have so many choices, you will need a great sense of choosing what to work on! I think you will find, in time, that you have a natural gravity toward exploring some ideas. You will also find that it is impossible to ignore these tendencies without feeling like there is something tugging at you all the time. For instance, do you remember the way that your first computer programs made you feel? That feeling of delight and discovery is exactly what keeps the scientific method alive. In a very literal sense, *at the heart of Science is the religion of curiosity*. In this letter we will hone in on the pursuit of the safe fulfillment of curiosity and how scientific thinking can help us get there.
 
 ### Computer Science
 
